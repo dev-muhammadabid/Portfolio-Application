@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name" font-family="@font/michroma_regular">Abid</string>
+    <string name="app_name">Abid</string>
+    <string name="text_intro">HEY, I AM</string>
+    <string name="text_desc">I build things for the Tech.</string>
+    <string name="getStartedBtn">Get Started</string>
 </resources>

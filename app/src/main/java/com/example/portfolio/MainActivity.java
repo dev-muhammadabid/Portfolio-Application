@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 //MAIN
 public class MainActivity extends AppCompatActivity {
 
-    public TextView name;
+    public TextView text_name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,9 +18,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //FrontPage_Name - Style
-        name = findViewById(R.id.name);
+        text_name = findViewById(R.id.text_name);
         String styledText = "<font color=\"#ffffff\">Muhammad</font> <font color=\"#008000\">Abid</font>";
-        name.setText(Html.fromHtml(styledText, Html.FROM_HTML_MODE_LEGACY));
+        text_name.setText(Html.fromHtml(styledText, Html.FROM_HTML_MODE_LEGACY));
+
+
 
     }
 }
