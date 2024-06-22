@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <!-- Main LOGO -->
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="100dp"
@@ -25,6 +26,7 @@
             app:layout_constraintVertical_bias="0.04"
             app:srcCompat="@drawable/main_logo" />
 
+        <!-- Main Title -->
         <TextView
             android:id="@+id/text_name"
             android:layout_width="wrap_content"
@@ -38,6 +40,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.65" />
 
+        <!-- About Section -->
         <TextView
             android:id="@+id/about"
             android:layout_width="wrap_content"
@@ -70,6 +73,7 @@
             app:layout_constraintTop_toBottomOf="@+id/about"
             app:layout_constraintVertical_bias="0.02" />
 
+        <!-- Tech Section -->
         <TextView
             android:id="@+id/tech_stack"
             android:layout_width="wrap_content"
@@ -89,12 +93,61 @@
             android:id="@+id/tech_list"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tech_stack"/>
+            app:layout_constraintTop_toBottomOf="@+id/tech_stack"
+            app:layout_constraintVertical_bias="0.08" />
+
+        <!-- Edu Section -->
+        <TextView
+            android:id="@+id/edu_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/silkscreen_regular"
+            android:text="@string/edu"
+            android:textColor="@color/green"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tech_list"
+            app:layout_constraintVertical_bias="0.2" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/edu_list"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edu_title"
+            app:layout_constraintVertical_bias="0.129" />
+
+<!--        -->
+<!--        &lt;!&ndash; Certification Section &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:id="@+id/certification_title"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:fontFamily="@font/silkscreen_regular"-->
+<!--            android:text="@string/certification"-->
+<!--            android:textColor="@color/green"-->
+<!--            android:textSize="20sp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.1"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/edu_list"-->
+<!--            app:layout_constraintVertical_bias="0.2" />-->
+
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>

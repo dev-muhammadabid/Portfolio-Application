@@ -23,6 +23,7 @@
         app:srcCompat="@drawable/main_logo" />
 
     <!-- Main Intro -->
+
     <TextView
         android:id="@+id/text_intro"
         android:layout_width="wrap_content"

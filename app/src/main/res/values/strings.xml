@@ -6,4 +6,6 @@
     <string name="about">ABOUT ME</string>
     <string name="about_desc">Hey! I\'m Muhammad Abid, a passionate Software Developer with expertise in JAVA and JavaScript. I specialize in creating dynamic websites and Android applications, and I thrive on turning ideas into reality. With a strong foundation in Data Structures and Algorithms, I tackle challenges with creativity and precision. Whether it\'s coding elegant solutions or crafting intuitive user experiences, I\'m committed to delivering excellence in every project. Let\'s collaborate and bring your visions to life!</string>
     <string name="tech_stack">TECH STACK</string>
+    <string name="edu">EDUCATION</string>
+    <string name="certification">CERTFICATION</string>
 </resources>
