@@ -76,15 +76,15 @@ public class MainPortfolio extends AppCompatActivity {
         techList.add(new TechItem(R.drawable.agile, "Agile", "https://www.atlassian.com/agile"));
 
         // Edu Stack items here
-        eduList.add(new EduItem(R.drawable.edulogo, "Master's", "MCA | 2023 - 2025", "https://muhammadabid.me/Images/AD.png"));
+        eduList.add(new EduItem(R.drawable.edulogo, "Master's", "MCA | 2023 - 2025", "https://static.vecteezy.com/system/resources/thumbnails/003/582/701/small_2x/coming-soon-background-illustration-template-design-free-vector.jpg"));
         eduList.add(new EduItem(R.drawable.edulogo, "Bachelor's", "BCA | 2020 - 2023", "https://muhammadabid.me/Images/BCA_Degree.jpg"));
 
-        // Certifi Stack items here
+        // Certifications Stack items here
         certifiList.add(new CertifiItem(R.drawable.cisco, "Cisco", "Mobile App Development", "https://thingqbator.nasscomfoundation.org/certificate/CQkn2KjWljJzgi55"));
-        certifiList.add(new CertifiItem(R.drawable.accenture, "Accenture", "Mobile", "https://google.com/"));
-        certifiList.add(new CertifiItem(R.drawable.accenture, "Accenture", "User Experience", "https://google.com/"));
-        certifiList.add(new CertifiItem(R.drawable.meta, "Meta", "Introduction to Back-End", "https://google.com/"));
-        certifiList.add(new CertifiItem(R.drawable.infosys, "Infosys", "Agile Development", "https://google.com/"));
+        certifiList.add(new CertifiItem(R.drawable.accenture, "Accenture", "Mobile", "https://www.futurelearn.com/certificates/fb0vxbn"));
+        certifiList.add(new CertifiItem(R.drawable.accenture, "Accenture", "User Experience", "https://www.futurelearn.com/certificates/h8mv98t"));
+        certifiList.add(new CertifiItem(R.drawable.meta, "Meta", "Introduction to Back-End", "https://www.coursera.org/account/accomplishments/verify/PUUDLKKX64VU"));
+        certifiList.add(new CertifiItem(R.drawable.infosys, "Infosys", "Agile Development", "https://verify.onwingspan.com/"));
 
         // Set adapters
         techListAdapter = new TechListAdapter(techList, this);
