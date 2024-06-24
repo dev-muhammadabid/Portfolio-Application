@@ -7,12 +7,12 @@
 
     <!-- Icons -->
     <ImageView
-        android:id="@+id/edu_img"
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
+        android:id="@+id/certifi_img"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.03"
@@ -21,7 +21,7 @@
     <!-- Title -->
 
     <TextView
-        android:id="@+id/edu_title"
+        android:id="@+id/certifi_title"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/silkscreen_regular"
@@ -29,23 +29,25 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.35"/>
+        app:layout_constraintVertical_bias="0.35" />
 
     <TextView
-        android:id="@+id/edu_desc"
+        android:id="@+id/certifi_desc"
         android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        android:layout_height="20dp"
         android:fontFamily="@font/michroma_regular"
+        android:paddingLeft="20dp"
         android:textColor="@color/off_white"
-        android:textSize="11sp"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8" />
+        app:layout_constraintVertical_bias="0.775" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+

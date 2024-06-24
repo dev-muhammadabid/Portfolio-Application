@@ -54,7 +54,7 @@
             app:layout_constraintHorizontal_bias="0.1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView"
-            app:layout_constraintVertical_bias="0.05" />
+            app:layout_constraintVertical_bias="0.04" />
 
         <TextView
             android:id="@+id/about_desc"
@@ -71,7 +71,7 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/about"
-            app:layout_constraintVertical_bias="0.02" />
+            app:layout_constraintVertical_bias="0.01" />
 
         <!-- Tech Section -->
         <TextView
@@ -87,19 +87,19 @@
             app:layout_constraintHorizontal_bias="0.1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/about_desc"
-            app:layout_constraintVertical_bias="0.06" />
+            app:layout_constraintVertical_bias="0.04" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/tech_list"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tech_stack"
-            app:layout_constraintVertical_bias="0.08" />
+            app:layout_constraintVertical_bias="0.05" />
 
         <!-- Edu Section -->
         <TextView
@@ -115,38 +115,67 @@
             app:layout_constraintHorizontal_bias="0.1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tech_list"
-            app:layout_constraintVertical_bias="0.2" />
+            app:layout_constraintVertical_bias="0.05" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/edu_list"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/edu_title"
-            app:layout_constraintVertical_bias="0.129" />
+            app:layout_constraintVertical_bias="0.04" />
 
-<!--        -->
-<!--        &lt;!&ndash; Certification Section &ndash;&gt;-->
-<!--        <TextView-->
-<!--            android:id="@+id/certification_title"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:fontFamily="@font/silkscreen_regular"-->
-<!--            android:text="@string/certification"-->
-<!--            android:textColor="@color/green"-->
-<!--            android:textSize="20sp"-->
-<!--            app:layout_constraintBottom_toBottomOf="parent"-->
-<!--            app:layout_constraintEnd_toEndOf="parent"-->
-<!--            app:layout_constraintHorizontal_bias="0.1"-->
-<!--            app:layout_constraintStart_toStartOf="parent"-->
-<!--            app:layout_constraintTop_toBottomOf="@+id/edu_list"-->
-<!--            app:layout_constraintVertical_bias="0.2" />-->
+        <!-- Certification Section -->
+        <TextView
+            android:id="@+id/certification_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/silkscreen_regular"
+            android:text="@string/certification"
+            android:textColor="@color/green"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edu_list"
+            app:layout_constraintVertical_bias="0.08" />
 
 
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/certifi_list"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:scrollbars="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/certification_title"
+                app:layout_constraintVertical_bias="0.08" />
+
+        <!-- Button -->
+        <Button
+            android:id="@+id/hireMeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/green"
+            android:text="@string/hireMeBtn"
+            android:textColor="@color/off_white"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/certifi_list"
+            app:layout_constraintVertical_bias="0.8" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

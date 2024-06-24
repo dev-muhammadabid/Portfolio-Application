@@ -8,4 +8,10 @@
     <string name="tech_stack">TECH STACK</string>
     <string name="edu">EDUCATION</string>
     <string name="certification">CERTFICATION</string>
+    <string name="hireMeBtn">Hire Me</string>
+    <string name="hireme_title">Hire Me</string>
+    <string name="hireme_name">NAME</string>
+    <string name="hireme_mail">EMAIL</string>
+    <string name="hireme_no">NUMBER</string>
+    <string name="hireme_submit">Submit</string>
 </resources>
